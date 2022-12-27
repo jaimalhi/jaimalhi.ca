@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-/* Universal Effects*/
-* { 
+/* Universal Effects */
+* {
+    background-color: #06172a !important;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,11 +10,10 @@
 }
 
 body {
-    background: url("/images/polygon-background.svg") no-repeat center center / cover;
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .1);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    overflow-x: hidden;
 }
 
+/* Nav Content */
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
@@ -33,8 +33,8 @@ body {
     border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.cover-container {
-    max-width: 45em;
+.nav-container {
+    max-width: 50rem;
 }
 
 /* Nav Elements */
@@ -58,16 +58,64 @@ body {
     border-bottom-color: #fff;
 }
 
-/* Custom default button */
+.nav-border {
+    position: fixed;
+    width: 50rem;
+    z-index: 2;
+    box-shadow: 0 0 1rem 0 rgba(7, 180, 233, 0.25); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+@media screen and (max-width: 55rem) {
+    .nav-border {
+        width: 92vw;
+    }
+}
+
+/* Home/Main Page */
+.home {
+    margin-top: -35px;
+    height: 101vh;
+    background: url("images/polygon-background.svg") no-repeat center center / cover;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.home-container {
+    max-width: 55rem;
+    background: rgba(0, 0, 0, 0) !important;
+}
+/* Make bg visible */
+.main-text {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+/* Custom button */
 .btn-secondary:hover,
 .btn-secondary:focus {
     text-shadow: none; /* Prevent inheritance from `body` */
     background: #1171bb;
-    box-shadow: inset 42px -42px 50px #206294,
+    box-shadow: inset 42px -42px 50px #206294,      
         inset -42px 42px 50px #3aaeff;
 }
 
+/* About Me */
 
+/* Seperator */
+.seperator {
+    width: 100vw;
+    height: 5px;
+    border: 1px solid #979696;
+    background: #979696 !important;
+}
 
 
 
