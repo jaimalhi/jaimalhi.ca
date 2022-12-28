@@ -2,7 +2,6 @@
 
 /* Universal Effects */
 * {
-    background-color: #06172a !important;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -11,6 +10,8 @@
 
 body {
     overflow-x: hidden;
+    /* background: url("images/dotted-70opacity.png") center / cover; */
+    background-color: #06172a !important;
 }
 
 /* Nav Content */
@@ -49,7 +50,7 @@ body {
     border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-masthead .nav-link + .nav-link {
+.nav-masthead .nav-link+.nav-link {
     margin-left: 1rem;
 }
 
@@ -62,16 +63,11 @@ body {
     position: fixed;
     width: 50rem;
     z-index: 2;
-    box-shadow: 0 0 1rem 0 rgba(7, 180, 233, 0.25); 
+    box-shadow: 0 0 1rem 0 rgba(7, 180, 233, 0.25);
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-}
-@media screen and (max-width: 55rem) {
-    .nav-border {
-        width: 92vw;
-    }
 }
 
 /* Home/Main Page */
@@ -85,47 +81,143 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    z-index: -1;
+    /* flex-direction: column; */
 }
 
 .home-container {
     max-width: 55rem;
-    background: rgba(0, 0, 0, 0) !important;
-}
-/* Make bg visible */
-.main-text {
-    background: rgba(0, 0, 0, 0) !important;
 }
 
 /* Custom button */
 .btn-secondary:hover,
 .btn-secondary:focus {
-    text-shadow: none; /* Prevent inheritance from `body` */
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
     background: #1171bb;
-    box-shadow: inset 42px -42px 50px #206294,      
-        inset -42px 42px 50px #3aaeff;
+    box-shadow: inset 42px -42px 50px #f3c350,
+        inset -42px 42px 50px #f3c350;
 }
 
 /* About Me */
-
-/* Seperator */
-.seperator {
-    width: 100vw;
-    height: 5px;
-    border: 1px solid #979696;
-    background: #979696 !important;
+.about-me {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
 }
 
+.about-container {
+    max-width: 70rem;
+    display: inline-flex;
+    padding: 1rem;
+}
 
+.about-text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: justify;
+}
 
+.face-img {
+    max-width: 35%;
+    height: auto;
+    margin-top: -30px;
+    border-radius: 50%;
+}
 
+/* Projects (Cards) */
+.projects {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
 
+.proj-header, .proj-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.proj-header hr {
+    background-color: #fff !important;
+    height: 5px;
+    width: 70rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 
+.proj-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.card {
+    background-color: #3d4e63 !important;
+    width: 20rem;
+    margin: 1rem;
+    transition: transform .5s ease;
+}
 
+.card:hover, .card:focus {
+    border: 1px solid #fff;
+    transform: scale(1.5);      
+    z-index: 5;    
+}
 
+/* Contact */
+.contact {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
 
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.contact-header hr {
+    background-color: #fff !important;
+    height: 5px;
+    width: 70rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 
+.contact-container {
+    max-width: 50rem;
+}
+
+/* Shrink nav  */
+@media screen and (max-width: 55rem) {
+    .nav-border {
+        width: 92vw;
+    }
+}
+/* Hide Images when screen small */
+@media screen and (max-width: 768px) {
+    img {
+        display: none;
+        visibility: hidden;
+    }
+}
+/* Make Proj-cards vertical */
+@media screen and (max-width: 600px) {
+    .proj-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Dont allow transform (scaling) */
+@media screen and (max-width: 1200px) {
+    .card:hover, .card:focus {
+        border: 1px solid #fff;
+        transform: scale(1.1);      
+        z-index: 5;    
+    }
+}
