@@ -324,6 +324,14 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .contact-header hr, 
+    .proj-header hr {
+        background-color: #fff !important;
+        height: 5px;
+        width: 28rem;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
 }
 /* Make Proj-cards vertical */
 @media screen and (max-width: 750px) {
