@@ -16,12 +16,12 @@
 <body>
     <!-- Navbar -->
     <div class="nav-container d-flex p-3 mx-auto flex-column text-center">
-        <div class="nav-border mb-auto">
+        <div class="nav-border">
             <a class="nav-link" href="https://www.linkedin.com/in/jai-malhi-11338720a/" target="_blank">
                 <h3 class="float-md-start mb-0 logo">Jai<span> Malhi</span></h3>
             </a>
-            <nav class="nav nav-masthead justify-content-center float-md-end py-0">
-                <a class="nav-link fw-bold px-0 active" aria-current="page" href="#home">Home</a>
+            <nav class="nav nav-masthead justify-content-center float-md-end py-0" id="scrollspy-navbar">
+                <a class="nav-link fw-bold px-0" aria-current="true" href="#home">Home</a>
                 <a class="nav-link fw-bold px-0" href="#about">About Me</a>
                 <a class="nav-link fw-bold px-0" href="#projects">Projects</a>
                 <a class="nav-link fw-bold px-0" href="#contact">Contact</a>
@@ -33,37 +33,40 @@
     <div class="home" id="home">
         <div class="home-container text-white text-center mx-auto">
             <h1>Developer &amp; Student</h1>
-            <p class="lead">Second-year Software Systems student and developer. I am passionate about software, creating
-                solutions, and learning new ideas</p>
+            <p class="lead">Second-year Software Systems student and developer. Passionate about software, creating
+                solutions, and learning new ideas. Currently based in Vancouver, BC</p>
             <p class="lead">
-                <a href="" class="btn btn-lg btn-secondary fw-bold border-white bg-primary">Download CV</a>
+                <a href="Information/Resume/Resume.pdf" class="btn btn-lg btn-secondary fw-bold border-white bg-primary"
+                    target="_blank">Download CV</a>
             </p>
         </div>
     </div>
 
     <!-- About Me -->
     <br id="about">
-    <div class="about-me">
+    <div class="about-me" id="about">
         <div class="about-container text-white">
-            <img class="face-img" src="images/yellowBG-headshot-1000px.jpg" alt="picture of Jai Malhi">
-            <div class="about-text">
-                <h1 class="text-center"><span tabindex="0">About Me</span></h1>
-                <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia
-                    deserunt mollit anim id est laborum
-                </p>
+            <div class="about-main">
+                <img class="face-img" src="images/yellowBG-headshot-1000px.jpg" alt="picture of Jai Malhi">
+                <div class="about-text">
+                    <h1 class="text-center"><span tabindex="0">About Me</span></h1>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+            </div>
+            <div class="about-education text-white">
+                <h2><span tabindex="0">Education</span></h2>
+                <h5>Simon Fraser University</h5>
+                <p>Software Systems - Bachelor of Science (BSc.)</p>
+                <em class="text-white-50">Anticipated Graduation: May 2025</em>
             </div>
         </div>
-    </div>
     </div>
 
     <!-- Projects (Cards) -->
     <br id="projects">
-    <div class="projects">
+    <div class="projects" id="projects">
         <div class="proj-header">
             <h1 class="text-center text-white" tabindex="0">Projects</h1>
             <hr>
@@ -73,22 +76,42 @@
                 <img src="images/proj1-mutant.png" class="card-img-top" alt="User Interface">
                 <div class="card-body">
                     <h5 class="card-title"><strong>Mutant Database</strong></h5>
-                    <p class="card-text">Designed a database to store information about 'mutants' that allows users to add, delete, and view mutant information using a JavaFX GUI</p>
+                    <div class="proj-tags">
+                        <span class="java-tag">Java</span>
+                        <span class="java-tag">JavaFX</span>
+                        <span class="tools-tag">Spring</span>
+                    </div>
+                    <p class="card-text">Designed a database to store information about 'mutants' that allows users to
+                        add, delete, and view mutant information using a JavaFX GUI</p>
                 </div>
             </div>
             <div class="card proj2" tabindex="0">
                 <img src="images/proj2-quizapp.png" class="card-img-top" alt="Quiz app demo">
                 <div class="card-body">
                     <h5 class="card-title"><strong>Trivia Webapp</strong></h5>
-                    <p class="card-text">a Trivia Webapp using JavaScript that allows users to answer a variety of questions and save and compare individual scores</p>
-                    <a href="trivia-webapp/index.html" class="btn btn-primary preview">Live Preview</a>
+                    <div class="proj-tags">
+                        <span class="js-tag">JavaScript</span>
+                        <span class="css-tag">CSS</span>
+                        <span class="html-tag">HTML</span>
+                        <span class="tools-tag">Fetch API</span>
+                        <span class="tools-tag">Open Trivia DB</span>
+                    </div>
+                    <p class="card-text">a Trivia Webapp that allows users to answer a variety of questions and save and
+                        compare individual scores</p>
+                    <a href="trivia-webapp/index.html" class="btn btn-primary preview" target="_blank">Live Preview</a>
                 </div>
             </div>
             <div class="card proj3" tabindex="0">
                 <img src="images/proj3-pish.png" class="card-img-top" alt="input + code example">
                 <div class="card-body">
                     <h5 class="card-title"><strong>Pish Interpreter</strong></h5>
-                    <p class="card-text">Implemented a Python-ish interpreter that takes in python like commands from a text-file or command line then parses and executes them</p>
+                    <div class="proj-tags">
+                        <span class="c-tag">C++</span>
+                        <span class="struct-tag">Binary trees</span>
+                        <span class="struct-tag">Hash tables</span>
+                    </div>
+                    <p class="card-text">Implemented a Python-ish interpreter that takes in python like commands from a
+                        text-file or command line then parses and executes them</p>
                 </div>
             </div>
         </div>
@@ -99,27 +122,35 @@
 
     <!-- Contact -->
     <br id="contact">
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="contact-container text-white text-center">
             <div class="contact-header">
                 <h1 class="text-center text-white" tabindex="0">Contact</h1>
                 <hr>
             </div>
-            <div class="contact-links">
-                <a href="https://www.linkedin.com/in/jai-malhi-11338720a/" target="_blank"><img src="images/linkedin.png" id="linkedIn"></a>
-                <a href="https://github.com/jaimalhi" target="_blank"><img src="images/github-sign.png" id="github"></a>
-            </div>
             <div class="contact-info">
-                <h5 class="text-center text-white-50">Reach me at!</h5>
-                <p>Email: jai_malhi@sfu.ca</p>
-                <p>Or through the <a href="https://www.sfu.ca/coop/programs/sosy/contact.html" class="text-hyperlink" target="_blank">SFU Co-op Office!</a></p>
+                <!-- <h5 class="text-center text-white-50">Reach me at!</h5> -->
+                <div class="lead email">
+                    <a data-auto-recognition="true" href="mailto:jai_malhi@sfu.ca"
+                        class="text-hyperlink">jai_malhi@sfu.ca</a>
+                </div>
             </div>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/jai-malhi-11338720a/" target="_blank"><img
+                        src="images/linkedin-white.png" id="linkedIn"></a>
+                <a href="https://github.com/jaimalhi" target="_blank"><img src="images/github-white.png"
+                        id="github"></a>
+            </div>
+            <p>Or through the <a href="https://www.sfu.ca/coop/programs/sosy/contact.html" class="text-hyperlink"
+                    target="_blank">SFU Co-op Office!</a></p>
         </div>
     </div>
 
     <!-- Footer -->
     <footer class="mt-auto text-white-50 text-center">
-        <a href="#home" class="text-hyperlink"><p>Back to Top</p></a>
+        <a href="#home" class="text-hyperlink">
+            <p>Back to Top</p>
+        </a>
         <p>Jai Malhi &#169; 2023</p>
     </footer>
 
@@ -129,8 +160,3 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!-- 
-Github icons created by Dave Gandy - https://www.flaticon.com/free-icons/github 
-Linkedin icons created by riajulislam - https://www.flaticon.com/free-icons/linkedin
--->
