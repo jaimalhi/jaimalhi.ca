@@ -135,7 +135,6 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-    /* margin-top: -30px; */
 }
 
 .about-education h4 {
@@ -327,7 +326,7 @@ body {
     }
 }
 /* Make Proj-cards vertical */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .proj-container {
         display: flex;
         flex-direction: column;
