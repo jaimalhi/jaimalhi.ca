@@ -12,17 +12,31 @@
 - funkify extension             disability simulator
 - byethost.com                  free website hosting for testing sites
 
-Colors to Use:
+Poly-BG Hex:
+- Navy   -> #06172a
+- Yellow -> #f3c350
+
+Potential Color Pallets:
 - skyblue         #AAC3BF
 - yellow          #FDC059
 - beige           #E6B674
 - dark green      #273B39
-- Purpleish       #22212c
+- Violet          #7870cc
 - navy            #001829
 - dark-blue       #022238
+- teal-ish        #00b2ca
+- mint            #7dcfb6
+- orange          #f79256
+- Light Grey      #9c9c9c
+- Dark Grey       #323738
+- Yellow          #ecaf1b
 
 Office Theme:
-- Jean-blue 	#475B74
+- Jean-blue 	#3d4e63
 - grey-blue		#7C8DA5
 - Navy-blue		#1D2538
-- cream		#E0E1DC
+- cream		    #E0E1DC
+
+Black Icons:
+Linkedin icons created by riajulislam - https://www.flaticon.com/free-icons/linkedin
+Github icons created by Dave Gandy - https://www.flaticon.com/free-icons/github 
