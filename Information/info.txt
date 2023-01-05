@@ -11,6 +11,7 @@
 - wave.webaim.org               check web accessibility
 - funkify extension             disability simulator
 - byethost.com                  free website hosting for testing sites
+- https://ogp.me/               info on meta data (meta tags)
 
 Poly-BG Hex:
 - Navy   -> #06172a
