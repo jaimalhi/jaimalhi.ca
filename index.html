@@ -57,7 +57,7 @@
     <br id="about">
     <div class="about-me" id="about">
         <div class="about-container text-white">
-            <img class="face-img item1" src="images/yellowBG-headshot-500px.jpg" alt="picture of Jai Malhi">
+            <img class="face-img item1" src="images/yellowBG-headshot-500px.jpg" alt="Jai Malhi" onContextMenu="return false;">
             <div class="about-text item2">
                 <h1 class="text-center"><span tabindex="0">About Me</span></h1>
                 <p class="lead">
@@ -93,8 +93,9 @@
         </div>
         <div class="proj-container text-white">
             <div class="card proj1" tabindex="0">
-                <img src="images/proj1-mutant.png" class="card-img-top" alt="User Interface">
-                <div class="card-body">
+                <!-- Use { onContextMenu="return false;" } to not allow right click -->
+                <img src="images/proj1-mutant.png" class="card-img-top" alt="User Interface" onContextMenu="return false;">
+                <div class="card-body"> 
                     <h5 class="card-title"><strong>Mutant Database</strong></h5>
                     <div class="proj-tags">
                         <span class="java-tag">Java</span>
@@ -105,7 +106,7 @@
                 </div>
             </div>
             <div class="card proj2" tabindex="0">
-                <img src="images/proj2-quizapp.png" class="card-img-top" alt="Quiz app demo">
+                <img src="images/proj2-quizapp.png" class="card-img-top" alt="Quiz app demo" onContextMenu="return false;">
                 <div class="card-body">
                     <h5 class="card-title"><strong>Trivia WebApp</strong></h5>
                     <div class="proj-tags">
@@ -120,7 +121,7 @@
                 </div>
             </div>
             <div class="card proj3" tabindex="0">
-                <img src="images/proj3-pish.png" class="card-img-top" alt="input + code example">
+                <img src="images/proj3-pish.png" class="card-img-top" alt="input + code example" onContextMenu="return false;">
                 <div class="card-body">
                     <h5 class="card-title"><strong>Pish Interpreter</strong></h5>
                     <div class="proj-tags">
@@ -152,9 +153,12 @@
                 </div>
             </div>
             <div class="contact-links">
-                <a href="https://www.linkedin.com/in/jaimalhi/" target="_blank"><img
-                        src="images/linkedin-white.png" id="linkedIn"></a>
-                <a href="https://github.com/jaimalhi" target="_blank"><img src="images/github-white.png" id="github"></a>
+                <a href="https://www.linkedin.com/in/jaimalhi/" target="_blank">
+                    <img src="images/linkedin-white.png" id="linkedIn" onContextMenu="return false;">
+                </a>
+                <a href="https://github.com/jaimalhi" target="_blank">
+                    <img src="images/github-white.png" id="github" onContextMenu="return false;">
+                </a>
             </div>
             <p>Or through the <a href="https://www.sfu.ca/coop/programs/sosy/contact.html" class="text-hyperlink"
                     target="_blank">SFU Co-op Office</a></p>

@@ -132,6 +132,7 @@ body {
 } 
 
 .face-img {
+    background: url("images/yellowBG-headshot-500px.jpg") no-repeat left center;
     max-width: 100%;
     height: auto;
     border-radius: 50%;
