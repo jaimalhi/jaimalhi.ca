@@ -219,7 +219,7 @@ body {
 
 .card:hover, .card:focus {
     border: 1px solid #fff;
-    transform: scale(1.4);      
+    transform: scale(1.3);      
     z-index: 3;    
 }
 
@@ -323,6 +323,11 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .about-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+    } 
     .contact-header hr, 
     .proj-header hr {
         background-color: #fff !important;
