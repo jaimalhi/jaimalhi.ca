@@ -55,7 +55,7 @@
 
     <!-- About Me -->
     <br id="about">
-    <div class="about-me" id="about">
+    <div class="about-me reveal" id="about">
         <div class="about-container text-white">
             <img class="face-img item1" src="images/yellowBG-headshot-500px.jpg" alt="Jai Malhi" onContextMenu="return false;">
             <div class="about-text item2">
@@ -86,7 +86,7 @@
 
     <!-- Projects (Cards) -->
     <br id="projects">
-    <div class="projects" id="projects">
+    <div class="projects reveal" id="projects">
         <div class="proj-header">
             <h1 class="text-center text-white" tabindex="0">Projects</h1>
             <hr>
@@ -140,7 +140,7 @@
 
     <!-- Contact -->
     <br id="contact">
-    <div class="contact" id="contact">
+    <div class="contact reveal" id="contact">
         <div class="contact-container text-white text-center">
             <div class="contact-header">
                 <h1 class="text-center text-white" tabindex="0">Contact</h1>
@@ -170,6 +170,28 @@
         <a href="#home" class="text-hyperlink">Back to Top</a>
         <p>Copyright &#169; Jai Malhi 2023</p>
     </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function reveal(){
+            let reveals = document.querySelectorAll(".reveal");
+
+            for(let i = 0;i < reveals.length;i++){
+                let windowHeight = window.innerHeight;
+                let elementTop = reveals[i].getBoundingClientRect().top;
+                let elementVisible = 150;
+
+                if(elementTop < windowHeight - elementVisible){
+                    console.log("add");
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                    console.log("remove");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+    </script>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

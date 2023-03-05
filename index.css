@@ -354,3 +354,16 @@ body {
         z-index: 3;    
     }
 }
+
+/* Scroll Effects */
+.reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
