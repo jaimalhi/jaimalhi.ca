@@ -3,8 +3,7 @@
 - As number of Projects increase, update site 
   - or per suggestion
 
-## Info
-Site utilizes
+## Created via
 - JavaScript
 - HTML
 - CSS -> Bootstrap
