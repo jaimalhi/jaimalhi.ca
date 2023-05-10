@@ -37,7 +37,3 @@ Office Theme:
 - grey-blue		#7C8DA5
 - Navy-blue		#1D2538
 - cream		    #E0E1DC
-
-Black Icons:
-Linkedin icons created by riajulislam - https://www.flaticon.com/free-icons/linkedin
-Github icons created by Dave Gandy - https://www.flaticon.com/free-icons/github 
