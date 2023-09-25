@@ -1,6 +1,6 @@
 # Personal-Site
 - Site Live as of Dec. 29 2022
-- As number of Projects increase, update site 
+- Last updated Jan. 2023
 
 ## Utilizes
 - JavaScript
