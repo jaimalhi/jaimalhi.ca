@@ -5,6 +5,6 @@ export default {
 	content: ['./src/**/*.{html,svelte,js,ts}'],
 	plugins: [daisyui],
 	daisyui: {
-		themes: ['dim', 'emerald']
+		themes: ['dim', 'forest', 'business']
 	}
 };
