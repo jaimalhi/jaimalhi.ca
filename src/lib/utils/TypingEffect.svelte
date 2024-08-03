@@ -42,8 +42,8 @@
 </script>
 
 <!-- Content -->
-<div>
-	<span class="text-accent">a {currentText}</span>
+<div class="my-2">
+	<span class="text-accent text-5xl md:text-7xl">a {currentText}</span>
 	<span class="cursor bg-accent">&nbsp;</span>
 </div>
 

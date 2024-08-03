@@ -1,6 +1,7 @@
 <script lang="ts">
 	import 'tailwindcss/tailwind.css';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -17,7 +18,12 @@
 	<meta name="robots" content="index, follow" />
 </svelte:head>
 
-<main class="mx-2">
-	<Navbar />
-	<slot />
-</main>
+<Navbar />
+<slot />
+<Footer />
+
+<style>
+	:global(html) {
+		overflow-x: hidden;
+	}
+</style>

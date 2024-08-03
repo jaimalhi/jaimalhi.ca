@@ -1,17 +1,15 @@
 <script lang="ts">
-	import About from '$lib/components/sections/About.svelte';
-	import Contact from '$lib/components/sections/Contact.svelte';
-	import Experience from '$lib/components/sections/Experience.svelte';
 	import Home from '$lib/components/sections/Home.svelte';
-	import Projects from '$lib/components/sections/Projects.svelte';
+	import About from '$lib/components/sections/About.svelte';
 	import Skills from '$lib/components/sections/Skills.svelte';
+	import Projects from '$lib/components/sections/Projects.svelte';
+	import Experience from '$lib/components/sections/Experience.svelte';
 </script>
 
-<main class="flex w-screen min-h-screen justify-center">
+<main class="w-screen flex flex-col justify-center items-center space-y-12">
 	<Home />
 	<About />
 	<Skills />
 	<Projects />
 	<Experience />
-	<Contact />
 </main>
