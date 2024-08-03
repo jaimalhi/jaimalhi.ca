@@ -11,11 +11,11 @@
 	}
 </script>
 
-<a {href} class="text-center hover:text-accent">
+<a {href} class="group text-center">
 	<img
 		{src}
 		alt={alt + ' Project'}
-		class="rounded-lg shadow-lg shadow-white/50 hover:shadow-accent/50 mb-2"
+		class="rounded-lg shadow-lg shadow-white/50 group-hover:shadow-accent/50 mb-2"
 	/>
-	<p class="font-semibold text-lg">{alt}</p>
+	<p class="font-semibold text-lg group-hover:text-accent">{alt}</p>
 </a>
