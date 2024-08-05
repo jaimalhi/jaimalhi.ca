@@ -16,6 +16,11 @@
 	<meta property="og:site_name" content="Jai Malhi" />
 	<meta property="og:type" content="website" />
 	<meta name="robots" content="index, follow" />
+	<link
+		rel="stylesheet"
+		type="text/css"
+		href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+	/>
 </svelte:head>
 
 <Navbar />
