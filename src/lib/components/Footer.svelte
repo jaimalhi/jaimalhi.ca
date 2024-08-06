@@ -45,7 +45,7 @@
 			<a href={links.linkedin}>
 				<img src="/icons/linkedin.png" alt="linkedin icon" width="32" height="32" />
 			</a>
-			<a href={`mailto:${links.resume}`}>
+			<a href={links.resume}>
 				<img src="/icons/resume.png" alt="mail icon" width="32" height="32" />
 			</a>
 		</div>
