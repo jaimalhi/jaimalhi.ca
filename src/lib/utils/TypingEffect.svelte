@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 
 	// The words to type
-	let words = ['Senior at SFU', 'Outdoor Enthusiast ', 'Software Engineer', 'Music Lover'];
+	let words = ['Senior at SFU', 'Outdoor Enthusiast ', 'Software Engineer'];
 
 	// State variables
 	let currentWordIndex = 0;
