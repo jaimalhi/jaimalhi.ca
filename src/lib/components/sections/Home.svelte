@@ -13,7 +13,9 @@
 		learner and thrive in environments where I can grow my knowledge and skillset while best
 		supporting a team.
 	</p>
-	<a class="btn btn-primary rounded-md text-lg" href={links.resume}>View Resume &#10142;</a>
+	<a class="btn btn-primary rounded-md text-lg" href={links.resume} target="_blank"
+		>View Resume &#10142;</a
+	>
 </div>
 
 <style>

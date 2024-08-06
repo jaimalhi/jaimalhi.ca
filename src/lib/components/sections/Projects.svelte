@@ -2,6 +2,7 @@
 	import ProjectBlock from '$lib/utils/ProjectBlock.svelte';
 </script>
 
+<br id="projects" />
 <div id="projects" class="w-11/12 lg:w-5/6 flex flex-col justify-center items-center">
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Projects</h1>
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

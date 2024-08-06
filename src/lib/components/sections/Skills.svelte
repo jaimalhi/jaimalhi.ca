@@ -1,18 +1,16 @@
 <script lang="ts">
 	import { devicons, type DeviconKey } from '$lib/utils/links.ts';
+	import { onMount } from 'svelte';
 
 	const skills: DeviconKey[] = [
 		'typescript',
-		// 'javascript',
 		'c',
 		'cpp',
 		'python',
 		'java',
-		'html',
-		'css',
 		'svelte',
 		'react',
-		// 'angular',
+		'angular',
 		// 'expressjs',
 		'nodejs',
 		'spring',
@@ -20,8 +18,11 @@
 		// 'firebase',
 		'mongodb',
 		'postgresql',
-		'tailwind'
+		'tailwind',
+		'javascript',
 		// 'bootstrap'
+		'html',
+		'css'
 	];
 
 	const skillDisplayNames: { [key: string]: string } = {
@@ -50,12 +51,33 @@
 	function getDisplayName(skill: string): string {
 		return skillDisplayNames[skill];
 	}
+
+	// Display 12 skills on mobile, 15 on desktop, and all on medium screens
+	let displayedSkills: DeviconKey[] = skills;
+
+	function updateDisplayedSkills() {
+		const width = window.innerWidth;
+		if (width <= 768) {
+			displayedSkills = skills.slice(0, 12);
+		} else if (width > 1024) {
+			displayedSkills = skills.slice(0, 15);
+		} else {
+			displayedSkills = skills;
+		}
+	}
+
+	onMount(() => {
+		updateDisplayedSkills();
+		window.addEventListener('resize', updateDisplayedSkills);
+		return () => window.removeEventListener('resize', updateDisplayedSkills);
+	});
 </script>
 
+<br id="skills" />
 <div id="skills" class="w-11/12 lg:w-5/6 flex flex-col justify-center items-center">
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Skills</h1>
 	<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-		{#each skills as skill}
+		{#each displayedSkills as skill}
 			<div
 				class="inline-flex flex-col items-center justify-center text-center rounded-lg py-2 px-10 shadow-lg shadow-white/5 hover:shadow-accent/50"
 			>

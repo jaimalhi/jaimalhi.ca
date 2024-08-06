@@ -2,6 +2,7 @@
 	import { links } from '$lib/utils/links.js';
 </script>
 
+<br id="about" />
 <div id="about" class="w-11/12 lg:w-5/6 flex flex-col justify-center items-center">
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">About</h1>
 	<div class="grid md:grid-cols-2 gap-4 max-w-5xl">
