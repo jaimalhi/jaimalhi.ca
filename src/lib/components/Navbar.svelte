@@ -2,7 +2,7 @@
 	<div class="navbar-start ml-2">
 		<a href="/" class="flex justify-end">
 			<h1 class="text-3xl">
-				<span>J</span><span class="font-bold">M.</span>
+				<span class="font-bold">J</span><span>M.</span>
 			</h1>
 		</a>
 	</div>

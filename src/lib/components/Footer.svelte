@@ -7,7 +7,7 @@
 	class="flex bg-neutral text-neutral-content items-center justify-center md:justify-between p-4"
 >
 	<aside class="hidden md:flex">
-		<a href="/" class="text-xl"><span>J</span><span class="font-bold">M.</span></a>
+		<a href="/" class="text-xl"><span class="font-bold">J</span><span>M.</span></a>
 	</aside>
 	<div class="hidden md:flex ml-[105px]">
 		<a href="#home" class="font-semibold hover:text-white">&#8593; Back to Top &#8593;</a>

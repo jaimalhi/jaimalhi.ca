@@ -6,7 +6,7 @@
 	import Experience from '$lib/components/sections/Experience.svelte';
 </script>
 
-<main class="w-screen flex flex-col justify-center items-center space-y-12">
+<main class="w-screen flex flex-col justify-center items-center space-y-[8rem]">
 	<Home />
 	<About />
 	<Skills />

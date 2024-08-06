@@ -1,39 +1,67 @@
 <script lang="ts">
-	const languages = [
-		'C++',
-		'C',
-		'C#',
-		'Java',
-		'JavaScript/TypeScript',
-		'HTML/CSS',
-		'Python',
-		'Git',
-		'SQL',
-		'NoSQL'
+	import { devicons, type DeviconKey } from '$lib/utils/links.ts';
+
+	const skills: DeviconKey[] = [
+		'typescript',
+		// 'javascript',
+		'c',
+		'cpp',
+		'python',
+		'java',
+		'html',
+		'css',
+		'svelte',
+		'react',
+		// 'angular',
+		// 'expressjs',
+		'nodejs',
+		'spring',
+		// 'supabase',
+		// 'firebase',
+		'mongodb',
+		'postgresql',
+		'tailwind'
+		// 'bootstrap'
 	];
-	const technologies = [
-		'NodeJS',
-		'Docker',
-		'JSON',
-		'Linux',
-		'Jest',
-		'Spring Boot',
-		'React',
-		'NextJS',
-		'SvelteKit',
-		'JUnit',
-		'GCP',
-		'PostgreSQL'
-	];
-	const developerTools = ['VS-Code', 'Visual Studio', 'IntelliJ', 'GitHub', 'Bash', 'OAuth'];
-	const projectManagement = ['AGILE', 'SCRUM', 'CI/CD', 'CRUD', 'REST'];
+
+	const skillDisplayNames: { [key: string]: string } = {
+		typescript: 'TypeScript',
+		javascript: 'JavaScript',
+		c: 'C',
+		cpp: 'C++',
+		python: 'Python',
+		java: 'Java',
+		html: 'HTML',
+		css: 'CSS',
+		svelte: 'Svelte',
+		react: 'React',
+		angular: 'Angular',
+		expressjs: 'ExpressJS',
+		nodejs: 'Node.js',
+		spring: 'Spring',
+		supabase: 'Supabase',
+		firebase: 'Firebase',
+		mongodb: 'MongoDB',
+		postgresql: 'PostgreSQL',
+		tailwind: 'Tailwind CSS',
+		bootstrap: 'Bootstrap'
+	};
+
+	function getDisplayName(skill: string): string {
+		return skillDisplayNames[skill];
+	}
 </script>
 
 <div id="skills" class="w-11/12 lg:w-5/6 flex flex-col justify-center items-center">
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Skills</h1>
-	<ul class="flex">
-		{#each languages as lang}
-			<li>{lang + ', '}</li>
+	<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+		{#each skills as skill}
+			<div
+				class="inline-flex flex-col items-center justify-center text-center rounded-lg py-2 px-10 shadow-lg shadow-white/5 hover:shadow-accent/50"
+			>
+				<i class={`${devicons[skill]} text-8xl`} title={getDisplayName(skill)}></i>
+				<p class="mt-2">{getDisplayName(skill)}</p>
+			</div>
 		{/each}
-	</ul>
+	</div>
 </div>
