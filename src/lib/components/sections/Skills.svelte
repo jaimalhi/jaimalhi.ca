@@ -1,52 +1,33 @@
 <script lang="ts">
-	import { devicons, type DeviconKey } from '$lib/utils/links.ts';
+	import { devicons, type DeviconKey, skillDisplayNames } from '$lib/utils/links.ts';
 	import { onMount } from 'svelte';
 
 	const skills: DeviconKey[] = [
 		'typescript',
-		'c',
 		'cpp',
 		'python',
 		'java',
+		'go',
 		'svelte',
 		'react',
 		'angular',
-		// 'expressjs',
+		'expressjs',
 		'nodejs',
 		'spring',
 		// 'supabase',
 		// 'firebase',
 		'mongodb',
 		'postgresql',
+		'mysql',
 		'tailwind',
+		// 'bootstrap',
 		'javascript',
-		// 'bootstrap'
 		'html',
+		'c',
+		'sqlite',
 		'css'
+		// 'discordjs'
 	];
-
-	const skillDisplayNames: { [key: string]: string } = {
-		typescript: 'TypeScript',
-		javascript: 'JavaScript',
-		c: 'C',
-		cpp: 'C++',
-		python: 'Python',
-		java: 'Java',
-		html: 'HTML',
-		css: 'CSS',
-		svelte: 'Svelte',
-		react: 'React',
-		angular: 'Angular',
-		expressjs: 'ExpressJS',
-		nodejs: 'Node.js',
-		spring: 'Spring',
-		supabase: 'Supabase',
-		firebase: 'Firebase',
-		mongodb: 'MongoDB',
-		postgresql: 'PostgreSQL',
-		tailwind: 'Tailwind CSS',
-		bootstrap: 'Bootstrap'
-	};
 
 	function getDisplayName(skill: string): string {
 		return skillDisplayNames[skill];
@@ -57,10 +38,13 @@
 
 	function updateDisplayedSkills() {
 		const width = window.innerWidth;
-		if (width <= 768) {
+		// Display 12 skills on mobile, 15 on desktop, and all on medium screens
+		if (width < 640) {
 			displayedSkills = skills.slice(0, 12);
-		} else if (width > 1024) {
+		} else if (width < 768) {
 			displayedSkills = skills.slice(0, 15);
+		} else if (width < 1024) {
+			displayedSkills = skills.slice(0, 16);
 		} else {
 			displayedSkills = skills;
 		}

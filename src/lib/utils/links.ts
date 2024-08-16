@@ -25,9 +25,40 @@ export const devicons = {
 	spring: 'devicon-spring-original colored',
 	mongodb: 'devicon-mongodb-plain colored',
 	postgresql: 'devicon-postgresql-plain colored',
+	sqlite: 'devicon-sqlite-plain',
+	mysql: 'devicon-mysql-original colored',
 	tailwind: 'devicon-tailwindcss-original colored',
 	bootstrap: 'devicon-bootstrap-plain colored',
+	go: 'devicon-go-original-wordmark colored',
+	discordjs: 'devicon-discordjs-plain',
 	error: 'Oops! Icon not found'
 };
 
 export type DeviconKey = keyof typeof devicons;
+
+export const skillDisplayNames: { [key: string]: string } = {
+	typescript: 'TypeScript',
+	javascript: 'JavaScript',
+	c: 'C',
+	cpp: 'C++',
+	python: 'Python',
+	java: 'Java',
+	html: 'HTML',
+	css: 'CSS',
+	svelte: 'Svelte',
+	react: 'React',
+	angular: 'Angular',
+	expressjs: 'ExpressJS',
+	nodejs: 'Node.js',
+	spring: 'Spring',
+	supabase: 'Supabase',
+	firebase: 'Firebase',
+	mongodb: 'MongoDB',
+	postgresql: 'PostgreSQL',
+	sqlite: 'SQLite',
+	mysql: 'MySQL',
+	tailwind: 'Tailwind CSS',
+	bootstrap: 'Bootstrap',
+	go: 'GoLang',
+	discordjs: 'Discord.js'
+};
