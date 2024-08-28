@@ -20,7 +20,7 @@
 		<ExperienceBlock
 			src="/logos/zebrarobotics-logo.png"
 			alt="Zebra Robotics Logo"
-			duration="AUG 2023 - SEPT 2024"
+			duration="AUG 2023 - AUG 2024"
 			title="Coding & Robotics Instructor | Zebra Robotics"
 			description={[
 				'Responsible for instructing children ages 6-17 about programming and providing guidance as required.',
