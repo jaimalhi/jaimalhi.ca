@@ -7,6 +7,17 @@
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Experience</h1>
 	<ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
 		<ExperienceBlock
+			src="/logos/fispan-logo.png"
+			alt="FISPAN Logo"
+			duration="SEPT 2024 - PRESENT"
+			title="Software Engineer Coop | FISPAN"
+			description={[
+				'Developed and implemented dynamic front-end web applications using React and Svelte, enhancing user experience.',
+				'Enhanced the automated testing suite, improving code quality and reduced time spent on manual testing.',
+				'Collaborated in design reviews, providing detailed technical feedback and delivering accurate time estimates for assigned development tasks.'
+			]}
+		/>
+		<ExperienceBlock
 			src="/logos/blueprint-logo.png"
 			alt="Blueprint Logo"
 			duration="SEPT 2023 - PRESENT"
@@ -14,7 +25,7 @@
 			description={[
 				'Developed responsive web applications utilizing React and NextJS.',
 				'Led front-end development efforts, ensuring high-quality user experiences and seamless interactions.',
-				'Conducted thoroughcode reviews, enhancing code quality and performance, and collaborated through Agile sprintsusing GitHub'
+				'Conducted thoroughcode reviews, enhancing code quality and performance, and collaborated through Agile sprintsusing GitHub.'
 			]}
 		/>
 		<ExperienceBlock
