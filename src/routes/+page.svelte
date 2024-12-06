@@ -9,7 +9,7 @@
 <main class="w-screen flex flex-col justify-center items-center space-y-[8rem]">
 	<Home />
 	<About />
-	<Skills />
+	<!-- <Skills /> -->
 	<Projects />
 	<Experience />
 	<br /><br /><br />

@@ -29,7 +29,7 @@
 				id="nav-dropdown"
 			>
 				<li><a href="#about" tabindex="0">About</a></li>
-				<li><a href="#skills" tabindex="0">Skills</a></li>
+				<!-- <li><a href="#skills" tabindex="0">Skills</a></li> -->
 				<li><a href="#projects" tabindex="0">Projects</a></li>
 				<li><a href="#experience" tabindex="0">Experience</a></li>
 				<li><a href="#contact" tabindex="0">Contact</a></li>
@@ -38,7 +38,7 @@
 		<div class="hidden lg:flex">
 			<ul class="menu menu-horizontal px-1 font-semibold space-x-2 text-base">
 				<li><a href="#about" tabindex="0">About</a></li>
-				<li><a href="#skills" tabindex="0">Skills</a></li>
+				<!-- <li><a href="#skills" tabindex="0">Skills</a></li> -->
 				<li><a href="#projects" tabindex="0">Projects</a></li>
 				<li><a href="#experience" tabindex="0">Experience</a></li>
 				<li><a href="#contact" tabindex="0">Contact</a></li>
