@@ -1,6 +1,5 @@
 # Portfolio - [jaimalhi.ca](https://www.jaimalhi.ca/)
 - Site Live as of Dec. 29 2022
-- Last updated August 2024
 
 ### Utilizes
 - [Sveltekit](https://kit.svelte.dev/docs/introduction)

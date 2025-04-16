@@ -9,8 +9,8 @@
 		<ProjectBlock
 			src="/projects/avio-tutor.png"
 			alt="Avio Tutor"
-			href="https://aviotutor.com/"
-			utilizes={['svelte', 'tailwind', 'supabase', 'typescript']}
+			href="https://github.com/jaimalhi/Tutor-Site"
+			utilizes={['svelte', 'tailwind', 'typescript']}
 		/>
 		<ProjectBlock
 			src="/projects/go-api.png"
