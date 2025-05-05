@@ -9,7 +9,7 @@
 		<ExperienceBlock
 			src="/logos/fispan-logo.png"
 			alt="FISPAN Logo"
-			duration="SEPT 2024 - PRESENT"
+			duration="SEPT 2024 - APRIL 2025"
 			title="Software Engineer Coop | FISPAN"
 			description={[
 				'Developed and implemented dynamic front-end web applications using React and Svelte, enhancing user experience.',
