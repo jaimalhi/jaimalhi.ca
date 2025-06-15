@@ -7,18 +7,33 @@
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Experience</h1>
 	<ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
 		<ExperienceBlock
+			src="/logos/sfuaxisconsulting.png"
+			companyLinkedIn="https://www.linkedin.com/company/sfuaxisconsulting/"
+			alt="SFU Axis Consulting Logo"
+			duration="MAY 2025 - PRESENT"
+			title="Director of Web Development | Axis Consulting"
+			description={[
+				'Directed development and maintenance of organizational applications, improving reliability and user engagement.',
+				'Managed full project lifecycle including planning, development, and deployment using Agile methodologies.',
+				'Mentored and supported junior developers, established coding standards, and conducted peer code reviews to ensure maintainable and scalable codebases.',
+				'Utilized technologies including React, Tailwind CSS, JavaScript, and Git-based version control.'
+			]}
+		/>
+		<ExperienceBlock
 			src="/logos/blueprint-logo.png"
+			companyLinkedIn="https://www.linkedin.com/company/sfu-blueprint/"
 			alt="Blueprint Logo"
 			duration="SEPT 2023 - PRESENT"
 			title="Project Developer | SFU Blueprint"
 			description={[
 				'Developed responsive web applications utilizing React and NextJS.',
 				'Led front-end development efforts, ensuring high-quality user experiences and seamless interactions.',
-				'Conducted thoroughcode reviews, enhancing code quality and performance, and collaborated through Agile sprintsusing GitHub.'
+				'Conducted thorough code reviews, enhancing code quality and performance, and collaborated through Agile sprints using GitHub.'
 			]}
 		/>
 		<ExperienceBlock
 			src="/logos/fispan-logo.png"
+			companyLinkedIn="https://www.linkedin.com/company/fispan/"
 			alt="FISPAN Logo"
 			duration="SEPT 2024 - APRIL 2025"
 			title="Software Engineer Coop | FISPAN"
@@ -30,6 +45,7 @@
 		/>
 		<ExperienceBlock
 			src="/logos/zebrarobotics-logo.png"
+			companyLinkedIn="https://www.linkedin.com/company/zebra-robotics-inc./"
 			alt="Zebra Robotics Logo"
 			duration="AUG 2023 - AUG 2024"
 			title="Coding & Robotics Instructor | Zebra Robotics"
@@ -42,6 +58,7 @@
 		/>
 		<ExperienceBlock
 			src="/logos/caminosoft-logo.png"
+			companyLinkedIn="https://www.linkedin.com/company/caminosoft-corporation/posts/"
 			alt="CaminoSoft Logo"
 			duration="JAN 2022 - AUG 2022"
 			title="Software Developer Intern | CaminoSoft"

@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let src: string = '/projects/no-image.png';
+	export let companyLinkedIn: string = '';
 	export let alt: string = 'Experience Image';
 	export let duration: string = 'MONTH YEAR - PRESENT';
 	export let title: string = 'Title | Company';
@@ -9,7 +10,9 @@
 <li>
 	<hr class="bg-primary" />
 	<div class="timeline-middle">
-		<img {src} {alt} width="48" height="48" class="rounded-md" />
+		<a href={companyLinkedIn} target="_blank" rel="noopener noreferrer">
+			<img {src} {alt} width="48" height="48" class="rounded-md" />
+		</a>
 	</div>
 	<div class="timeline-end mb-10 ml-4">
 		<time class="font-mono italic">{duration}</time>
