@@ -23,7 +23,7 @@
 			src="/logos/blueprint-logo.png"
 			companyLinkedIn="https://www.linkedin.com/company/sfu-blueprint/"
 			alt="Blueprint Logo"
-			duration="SEPT 2023 - PRESENT"
+			duration="SEPT 2023 - SEPT 2025"
 			title="Project Developer | SFU Blueprint"
 			description={[
 				'Developed responsive web applications utilizing React and NextJS.',
