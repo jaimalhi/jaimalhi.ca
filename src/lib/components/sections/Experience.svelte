@@ -13,10 +13,9 @@
 			duration="MAY 2025 - PRESENT"
 			title="Director of Web Development | Axis Consulting"
 			description={[
-				'Directed development and maintenance of organizational applications, improving reliability and user engagement.',
-				'Managed full project lifecycle including planning, development, and deployment using Agile methodologies.',
-				'Mentored and supported junior developers, established coding standards, and conducted peer code reviews to ensure maintainable and scalable codebases.',
-				'Utilized technologies including React, Tailwind CSS, JavaScript, and Git-based version control.'
+				'Rebuilding the Axis Consulting website with a cleaner UX and modern developer workflows, improving load times and increasing visitor engagement.',
+				'Implemented CDN image delivery and caching, significantly enhancing site performance and scalability under high-traffic conditions and changing internet connections.',
+				'Established developer guidelines and feature flag framework, enabling other admins to easily add and toggle features, reducing update turnaround time from weeks to days.'
 			]}
 		/>
 		<ExperienceBlock
@@ -38,8 +37,8 @@
 			duration="SEPT 2024 - APRIL 2025"
 			title="Software Engineer Coop | FISPAN"
 			description={[
-				'Developed and implemented dynamic front-end web applications using React and Svelte, enhancing user experience.',
-				'Enhanced the automated testing suite, improving code quality and reduced time spent on manual testing.',
+				'Built a multi-tenant dashboard (React, TypeScript, Playwright), used daily by 5,000+ users, improving onboarding experience and data accessibility through improved UI workflows.',
+				'Modernized ERP-embedded applications (React + Svelte), cutting bugs through test driven development and enabling faster adoption of new financial service features.',
 				'Collaborated in design reviews, providing detailed technical feedback and delivering accurate time estimates for assigned development tasks.'
 			]}
 		/>
