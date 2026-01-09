@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let src: string = '/projects/no-image.png';
+	export let src: string = '/projects/no-image.webp';
 	export let companyLinkedIn: string = '';
 	export let alt: string = 'Experience Image';
 	export let duration: string = 'MONTH YEAR - PRESENT';

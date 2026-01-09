@@ -8,7 +8,7 @@
 	<div class="grid md:grid-cols-2 gap-4 max-w-5xl">
 		<a href={links.linkedin}>
 			<img
-				src="/jai-temp.jpg"
+				src="/jai-temp.webp"
 				alt="Jai Malhi"
 				class="rounded-lg w-full shadow-lg hover:shadow-accent/50"
 			/>

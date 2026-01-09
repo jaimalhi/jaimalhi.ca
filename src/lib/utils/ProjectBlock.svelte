@@ -2,7 +2,7 @@
 <script lang="ts">
 	import { devicons, type DeviconKey } from '$lib/utils/links.ts';
 
-	export let src: string = '/projects/no-image.png';
+	export let src: string = '/projects/no-image.webp';
 	export let alt: string = 'Image Not Available';
 	export let href: string = '/';
 	export let utilizes: DeviconKey[] = ['error'];

@@ -14,13 +14,13 @@
 	</div>
 	<nav class="flex gap-12 md:gap-6 invert">
 		<a href={links.github}>
-			<img src="/icons/github.png" alt="github icon" width="32" height="32" />
+			<img src="/icons/github.webp" alt="github icon" width="32" height="32" />
 		</a>
 		<a href={links.linkedin}>
-			<img src="/icons/linkedin.png" alt="linkedin icon" width="32" height="32" />
+			<img src="/icons/linkedin.webp" alt="linkedin icon" width="32" height="32" />
 		</a>
 		<a href={`mailto:${links.email}`}>
-			<img src="/icons/email.png" alt="mail icon" width="32" height="32" />
+			<img src="/icons/email.webp" alt="mail icon" width="32" height="32" />
 		</a>
 	</nav>
 </footer> -->
@@ -40,13 +40,13 @@
 		<h6 class="footer-title">Contact</h6>
 		<div class="grid grid-flow-col gap-4 invert">
 			<a href={links.github} class="hover:invert-0">
-				<img src="/icons/github.png" alt="github icon" width="32" height="32" />
+				<img src="/icons/github.webp" alt="github icon" width="32" height="32" />
 			</a>
 			<a href={links.linkedin}>
-				<img src="/icons/linkedin.png" alt="linkedin icon" width="32" height="32" />
+				<img src="/icons/linkedin.webp" alt="linkedin icon" width="32" height="32" />
 			</a>
 			<a href={links.resume}>
-				<img src="/icons/resume.png" alt="mail icon" width="32" height="32" />
+				<img src="/icons/resume.webp" alt="mail icon" width="32" height="32" />
 			</a>
 		</div>
 	</nav>

@@ -7,7 +7,7 @@
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Experience</h1>
 	<ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
 		<ExperienceBlock
-			src="/logos/sfuaxisconsulting.png"
+			src="/logos/sfuaxisconsulting.webp"
 			companyLinkedIn="https://www.linkedin.com/company/sfuaxisconsulting/"
 			alt="SFU Axis Consulting Logo"
 			duration="MAY 2025 - PRESENT"
@@ -19,7 +19,7 @@
 			]}
 		/>
 		<ExperienceBlock
-			src="/logos/blueprint-logo.png"
+			src="/logos/blueprint-logo.webp"
 			companyLinkedIn="https://www.linkedin.com/company/sfu-blueprint/"
 			alt="Blueprint Logo"
 			duration="SEPT 2023 - SEPT 2025"
@@ -31,7 +31,7 @@
 			]}
 		/>
 		<ExperienceBlock
-			src="/logos/fispan-logo.png"
+			src="/logos/fispan-logo.webp"
 			companyLinkedIn="https://www.linkedin.com/company/fispan/"
 			alt="FISPAN Logo"
 			duration="SEPT 2024 - APRIL 2025"
@@ -43,7 +43,7 @@
 			]}
 		/>
 		<ExperienceBlock
-			src="/logos/zebrarobotics-logo.png"
+			src="/logos/zebrarobotics-logo.webp"
 			companyLinkedIn="https://www.linkedin.com/company/zebra-robotics-inc./"
 			alt="Zebra Robotics Logo"
 			duration="AUG 2023 - AUG 2024"
@@ -56,7 +56,7 @@
 			]}
 		/>
 		<ExperienceBlock
-			src="/logos/caminosoft-logo.png"
+			src="/logos/caminosoft-logo.webp"
 			companyLinkedIn="https://www.linkedin.com/company/caminosoft-corporation/posts/"
 			alt="CaminoSoft Logo"
 			duration="JAN 2022 - AUG 2022"
