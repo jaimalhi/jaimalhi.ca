@@ -1,8 +1,9 @@
 <!-- IMAGES MUST BE 500px x 500px -->
 <script lang="ts">
-	import { devicons, type DeviconKey } from '$lib/utils/links.ts';
+	import { devicons, type DeviconKey } from '$lib/utils/constants/links.ts';
+	import { global } from './constants/images.ts';
 
-	export let src: string = '/projects/no-image.webp';
+	export let src: string = global.no_image;
 	export let alt: string = 'Image Not Available';
 	export let href: string = '/';
 	export let utilizes: DeviconKey[] = ['error'];

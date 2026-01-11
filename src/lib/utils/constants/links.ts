@@ -6,6 +6,7 @@ export const links = {
 	portfolio: 'https://www.jaimalhi.ca/'
 };
 
+//* Devicon class names for various technologies *//
 export const devicons = {
 	svelte: 'devicon-svelte-plain colored',
 	react: 'devicon-react-original colored',

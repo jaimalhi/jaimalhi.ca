@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { links } from '$lib/utils/links.js';
+	import { global } from '$lib/utils/constants/images.ts';
+	import { links } from '$lib/utils/constants/links.ts';
 </script>
 
 <br id="about" />
@@ -8,7 +9,7 @@
 	<div class="grid md:grid-cols-2 gap-4 max-w-5xl">
 		<a href={links.linkedin}>
 			<img
-				src="/jai-temp.webp"
+				src={global.jai_photo}
 				alt="Jai Malhi"
 				class="rounded-lg w-full shadow-lg hover:shadow-accent/50"
 			/>

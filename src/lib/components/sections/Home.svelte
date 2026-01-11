@@ -1,6 +1,6 @@
 <script lang="ts">
 	import TypingEffect from '$lib/utils/TypingEffect.svelte';
-	import { links } from '$lib/utils/links.js';
+	import { links } from '$lib/utils/constants/links.ts';
 </script>
 
 <div id="home" class="w-11/12 lg:w-4/6 min-h-screen flex flex-col justify-center items-start">

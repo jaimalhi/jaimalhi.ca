@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { devicons, type DeviconKey, skillDisplayNames } from '$lib/utils/links.ts';
+	import { devicons, type DeviconKey, skillDisplayNames } from '$lib/utils/constants/links.ts';
 	import { onMount } from 'svelte';
 
 	const skills: DeviconKey[] = [

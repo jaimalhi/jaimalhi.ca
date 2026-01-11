@@ -1,5 +1,7 @@
 <script lang="ts">
-	export let src: string = '/projects/no-image.webp';
+	import { global } from './constants/images.ts';
+
+	export let src: string = global.no_image;
 	export let companyLinkedIn: string = '';
 	export let alt: string = 'Experience Image';
 	export let duration: string = 'MONTH YEAR - PRESENT';

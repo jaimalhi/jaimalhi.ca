@@ -1,5 +1,12 @@
 <script lang="ts">
 	import ExperienceBlock from '$lib/utils/ExperienceBlock.svelte';
+	import {
+		axis_consulting,
+		blueprint,
+		fispan,
+		zebra_robotics,
+		camino_soft
+	} from '$lib/utils/constants/experiences.ts';
 </script>
 
 <br id="experience" />
@@ -7,66 +14,44 @@
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Experience</h1>
 	<ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
 		<ExperienceBlock
-			src="/logos/sfuaxisconsulting.webp"
-			companyLinkedIn="https://www.linkedin.com/company/sfuaxisconsulting/"
-			alt="SFU Axis Consulting Logo"
-			duration="MAY 2025 - PRESENT"
-			title="Director of Web Development | Axis Consulting"
-			description={[
-				'Rebuilding the Axis Consulting website with a cleaner UX and modern developer workflows, improving load times and increasing visitor engagement.',
-				'Implemented CDN image delivery and caching, significantly enhancing site performance and scalability under high-traffic conditions and changing internet connections.',
-				'Established developer guidelines and feature flag framework, enabling other admins to easily add and toggle features, reducing update turnaround time from weeks to days.'
-			]}
+			src={axis_consulting.src}
+			companyLinkedIn={axis_consulting.companyLinkedIn}
+			alt={axis_consulting.srcAlt}
+			duration={axis_consulting.duration}
+			title={axis_consulting.title}
+			description={axis_consulting.description}
 		/>
 		<ExperienceBlock
-			src="/logos/blueprint-logo.webp"
-			companyLinkedIn="https://www.linkedin.com/company/sfu-blueprint/"
-			alt="Blueprint Logo"
-			duration="SEPT 2023 - SEPT 2025"
-			title="Project Developer | SFU Blueprint"
-			description={[
-				'Developed responsive web applications utilizing React and NextJS.',
-				'Led front-end development efforts, ensuring high-quality user experiences and seamless interactions.',
-				'Conducted thorough code reviews, enhancing code quality and performance, and collaborated through Agile sprints using GitHub.'
-			]}
+			src={blueprint.src}
+			companyLinkedIn={blueprint.companyLinkedIn}
+			alt={blueprint.srcAlt}
+			duration={blueprint.duration}
+			title={blueprint.title}
+			description={blueprint.description}
 		/>
 		<ExperienceBlock
-			src="/logos/fispan-logo.webp"
-			companyLinkedIn="https://www.linkedin.com/company/fispan/"
-			alt="FISPAN Logo"
-			duration="SEPT 2024 - APRIL 2025"
-			title="Software Engineer Coop | FISPAN"
-			description={[
-				'Built a multi-tenant dashboard (React, TypeScript, Playwright), used daily by 5,000+ users, improving onboarding experience and data accessibility through improved UI workflows.',
-				'Modernized ERP-embedded applications (React + Svelte), cutting bugs through test driven development and enabling faster adoption of new financial service features.',
-				'Collaborated in design reviews, providing detailed technical feedback and delivering accurate time estimates for assigned development tasks.'
-			]}
+			src={fispan.src}
+			companyLinkedIn={fispan.companyLinkedIn}
+			alt={fispan.srcAlt}
+			duration={fispan.duration}
+			title={fispan.title}
+			description={fispan.description}
 		/>
 		<ExperienceBlock
-			src="/logos/zebrarobotics-logo.webp"
-			companyLinkedIn="https://www.linkedin.com/company/zebra-robotics-inc./"
-			alt="Zebra Robotics Logo"
-			duration="AUG 2023 - AUG 2024"
-			title="Coding & Robotics Instructor | Zebra Robotics"
-			description={[
-				'Responsible for instructing children ages 6-17 about programming and providing guidance as required.',
-				'Teaching HTML/CSS, JavaScript, and Python ranging from beginner to advanced levels.',
-				'Training incoming instructors in company software & teaching etiquette.',
-				'Assisting with admin responsibilities including management & local school engagement.'
-			]}
+			src={zebra_robotics.src}
+			companyLinkedIn={zebra_robotics.companyLinkedIn}
+			alt={zebra_robotics.srcAlt}
+			duration={zebra_robotics.duration}
+			title={zebra_robotics.title}
+			description={zebra_robotics.description}
 		/>
 		<ExperienceBlock
-			src="/logos/caminosoft-logo.webp"
-			companyLinkedIn="https://www.linkedin.com/company/caminosoft-corporation/posts/"
-			alt="CaminoSoft Logo"
-			duration="JAN 2022 - AUG 2022"
-			title="Software Developer Intern | CaminoSoft"
-			description={[
-				'Developed Data Science applications in Python using libraries like Pandas and NumPy.',
-				'Improved data parser (csv inputs) runtime by ~20% by utilizing the Pandas library’s chunking capabilities while maintaining low memory usage.',
-				'Assisted in maintaining code style and efficiency of programs by refactoring code.',
-				'Designed infrastructure automation process to deploy updates on client machines using Ansible and YAML.'
-			]}
+			src={camino_soft.src}
+			companyLinkedIn={camino_soft.companyLinkedIn}
+			alt={camino_soft.srcAlt}
+			duration={camino_soft.duration}
+			title={camino_soft.title}
+			description={camino_soft.description}
 		/>
 	</ul>
 </div>
