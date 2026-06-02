@@ -1,5 +1,5 @@
 export const global = {
-	jai_photo: '/jai-temp.webp',
+	jai_photo: '/jai-headshot.webp',
 	favicon: '/favicon.webp', // app.html will not use this import
 	no_image: '/no-image.webp'
 };
@@ -16,7 +16,8 @@ export const logos = {
 	camino_soft: '/logos/camino-soft-logo.webp',
 	fispan: '/logos/fispan-logo.webp',
 	sfu_axis_consulting: '/logos/sfu-axis-consulting.webp',
-	zebra_robotics: '/logos/zebra-robotics-logo.webp'
+	zebra_robotics: '/logos/zebra-robotics-logo.webp',
+	kpmg: '/logos/kpmg-logo.jpg'
 };
 
 export const projects = {
