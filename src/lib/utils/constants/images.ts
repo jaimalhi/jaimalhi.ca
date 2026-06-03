@@ -21,6 +21,8 @@ export const logos = {
 };
 
 export const projects = {
+	bevr: '/projects/bevr.webp',
+	autosec: '/projects/autosec.webp',
 	avio_tutor: '/projects/avio-tutor.webp',
 	go_api: '/projects/go-api.webp',
 	incident_report: '/projects/incident-report.webp',

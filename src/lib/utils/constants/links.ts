@@ -32,7 +32,11 @@ export const devicons = {
 	bootstrap: 'devicon-bootstrap-plain colored',
 	go: 'devicon-go-original-wordmark colored',
 	discordjs: 'devicon-discordjs-plain',
-	error: 'Oops! Icon not found'
+	error: 'Oops! Icon not found',
+	docker: 'devicon-docker-plain colored',
+	kotlin: 'devicon-kotlin-plain colored',
+	android: 'devicon-android-plain colored',
+	android_studio: 'devicon-androidstudio-plain'
 };
 
 export type DeviconKey = keyof typeof devicons;
