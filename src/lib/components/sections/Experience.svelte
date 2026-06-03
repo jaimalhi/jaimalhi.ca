@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ExperienceBlock from '$lib/utils/ExperienceBlock.svelte';
 	import {
+		// kpmg,
 		axis_consulting,
 		blueprint,
 		fispan,
@@ -13,6 +14,14 @@
 <div id="experience" class="w-11/12 lg:w-5/6 flex flex-col justify-center items-center">
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Experience</h1>
 	<ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
+		<!-- <ExperienceBlock
+			src={kpmg.src}
+			companyLinkedIn={kpmg.companyLinkedIn}
+			alt={kpmg.srcAlt}
+			duration={kpmg.duration}
+			title={kpmg.title}
+			description={kpmg.description}
+		/> -->
 		<ExperienceBlock
 			src={axis_consulting.src}
 			companyLinkedIn={axis_consulting.companyLinkedIn}

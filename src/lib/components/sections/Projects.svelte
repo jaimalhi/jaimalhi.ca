@@ -8,16 +8,22 @@
 	<h1 class="text-5xl font-bold underline underline-offset-4 mb-6 decoration-accent">Projects</h1>
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 		<ProjectBlock
+			src={projects.autosec}
+			alt="AutoSec"
+			href="https://github.com/KoushaAm/AutoSec"
+			utilizes={['python', 'docker']}
+		/>
+		<ProjectBlock
 			src={projects.avio_tutor}
 			alt="Avio Tutor"
 			href="https://github.com/jaimalhi/Tutor-Site"
 			utilizes={['svelte', 'tailwind', 'typescript']}
 		/>
 		<ProjectBlock
-			src={projects.go_api}
-			alt="Go Booking API"
-			href="https://github.com/jaimalhi/Go-Booking"
-			utilizes={['go', 'sqlite']}
+			src={projects.bevr}
+			alt="Bevr Beverage Tracker"
+			href="https://github.com/jaimalhi/bevr"
+			utilizes={['android', 'kotlin', 'android_studio']}
 		/>
 		<ProjectBlock
 			src={projects.incident_report}
@@ -32,16 +38,22 @@
 			utilizes={['react', 'tailwind', 'expressjs', 'javascript', 'postgresql', 'firebase']}
 		/>
 		<ProjectBlock
+			src={projects.go_api}
+			alt="Go Booking API"
+			href="https://github.com/jaimalhi/Go-Booking"
+			utilizes={['go', 'sqlite']}
+		/>
+		<!-- <ProjectBlock
 			src={projects.discord_bot}
 			alt="Discord Music Bot"
 			href="https://github.com/jaimalhi/Music-Bot"
 			utilizes={['javascript', 'nodejs', 'discordjs']}
-		/>
-		<ProjectBlock
+		/> -->
+		<!-- <ProjectBlock
 			src={projects.replicake}
 			alt="Replicake"
 			href="https://github.com/HPhilipN/C276-Project"
 			utilizes={['react', 'bootstrap', 'spring', 'java', 'postgresql', 'javascript']}
-		/>
+		/> -->
 	</div>
 </div>

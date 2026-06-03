@@ -9,11 +9,24 @@ interface Experience {
 	description: string[];
 }
 
+export const kpmg: Experience = {
+	src: logos.kpmg,
+	srcAlt: 'KPMG Logo',
+	companyLinkedIn: 'https://www.linkedin.com/company/kpmg-canada/',
+	duration: 'SEPTEMBER 2026 - DECEMBER 2026',
+	title: 'Management Consultant Intern | KPMG Canada',
+	description: [
+		'kpmg description placeholder',
+		'kpmg description placeholder',
+		'kpmg description placeholder'
+	]
+};
+
 export const axis_consulting: Experience = {
 	src: logos.sfu_axis_consulting,
 	srcAlt: 'SFU Axis Consulting Logo',
 	companyLinkedIn: 'https://www.linkedin.com/company/sfuaxisconsulting/',
-	duration: 'MAY 2025 - PRESENT',
+	duration: 'MAY 2025 - JUNE 2026',
 	title: 'Director of Web Development | Axis Consulting',
 	description: [
 		'Rebuilding the Axis Consulting website with a cleaner UX and modern developer workflows, improving load times and increasing visitor engagement.',
@@ -26,7 +39,7 @@ export const blueprint: Experience = {
 	src: logos.blueprint,
 	srcAlt: 'Blueprint Logo',
 	companyLinkedIn: 'https://www.linkedin.com/company/sfu-blueprint/',
-	duration: 'SEPT 2023 - SEPT 2025',
+	duration: 'SEPTEMBER 2023 - SEPTEMBER 2025',
 	title: 'Project Developer | SFU Blueprint',
 	description: [
 		'Developed responsive web applications utilizing React and NextJS.',
@@ -39,7 +52,7 @@ export const fispan: Experience = {
 	src: logos.fispan,
 	srcAlt: 'FISPAN Logo',
 	companyLinkedIn: 'https://www.linkedin.com/company/fispan/',
-	duration: 'SEPT 2024 - APRIL 2025',
+	duration: 'SEPTEMBER 2024 - APRIL 2025',
 	title: 'Software Engineer Co-op | FISPAN',
 	description: [
 		'Built a multi-tenant dashboard (React, TypeScript, Playwright), used daily by 5,000+ users, improving onboarding experience and data accessibility through improved UI workflows.',
@@ -52,7 +65,7 @@ export const zebra_robotics: Experience = {
 	src: logos.zebra_robotics,
 	srcAlt: 'Zebra Robotics Logo',
 	companyLinkedIn: 'https://www.linkedin.com/company/zebra-robotics-inc./',
-	duration: 'AUG 2023 - AUG 2024',
+	duration: 'AUGUST 2023 - AUGUST 2024',
 	title: 'Coding & Robotics Instructor | Zebra Robotics',
 	description: [
 		'Responsible for instructing children ages 6-17 about programming and providing guidance as required.',
@@ -66,7 +79,7 @@ export const camino_soft: Experience = {
 	src: logos.camino_soft,
 	srcAlt: 'CaminoSoft Logo',
 	companyLinkedIn: 'https://www.linkedin.com/company/caminosoft-corporation',
-	duration: 'JAN 2022 - AUG 2022',
+	duration: 'JANUARY 2022 - AUGUST 2022',
 	title: 'Software Developer Intern | CaminoSoft',
 	description: [
 		'Developed Data Science applications in Python using libraries like Pandas and NumPy.',
