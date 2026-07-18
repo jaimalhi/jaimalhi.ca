@@ -1,4 +1,4 @@
-import { logos } from './images.ts';
+import { global, logos } from './images.ts';
 
 interface Experience {
 	src: string;
@@ -9,16 +9,16 @@ interface Experience {
 	description: string[];
 }
 
-export const kpmg: Experience = {
-	src: logos.kpmg,
-	srcAlt: 'KPMG Logo',
-	companyLinkedIn: 'https://www.linkedin.com/company/kpmg-canada/',
-	duration: 'SEPTEMBER 2026 - DECEMBER 2026',
-	title: 'Management Consultant Intern | KPMG Canada',
+export const company: Experience = {
+	src: global.no_image,
+	srcAlt: 'Company Logo',
+	companyLinkedIn: 'https://www.linkedin.com/company/company-name/',
+	duration: 'MONTH YEAR - MONTH YEAR',
+	title: 'TITLE | COMPANY NAME',
 	description: [
-		'kpmg description placeholder',
-		'kpmg description placeholder',
-		'kpmg description placeholder'
+		'company description placeholder',
+		'company description placeholder',
+		'company description placeholder'
 	]
 };
 
