@@ -1,7 +1,7 @@
 export const links = {
 	linkedin: 'https://www.linkedin.com/in/jaimalhi/',
 	github: 'https://github.com/jaimalhi',
-	email: 'jai_malhi@sfu.ca',
+	email: 'malhi.jaivir@gmail.com',
 	resume: 'https://drive.google.com/file/d/1dOH4V2VdlhyOs2m1sas2hBjnLN24EKR4/view?usp=drive_link',
 	portfolio: 'https://www.jaimalhi.ca/'
 };

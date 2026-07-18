@@ -16,8 +16,7 @@ export const logos = {
 	camino_soft: '/logos/camino-soft-logo.webp',
 	fispan: '/logos/fispan-logo.webp',
 	sfu_axis_consulting: '/logos/sfu-axis-consulting.webp',
-	zebra_robotics: '/logos/zebra-robotics-logo.webp',
-	kpmg: '/logos/kpmg-logo.jpg'
+	zebra_robotics: '/logos/zebra-robotics-logo.webp'
 };
 
 export const projects = {
